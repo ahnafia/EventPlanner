@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="252.0" prefWidth="455.0" stylesheets="@Dashboard.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EventPlanner.addEventController">
+   <children>
+      <Button fx:id="assembly" layoutX="37.0" layoutY="92.0" mnemonicParsing="false" onAction="#onClickAssembly" prefHeight="68.0" prefWidth="145.0" text="Assembly" />
+      <Button fx:id="gradeActivity" layoutX="265.0" layoutY="92.0" mnemonicParsing="false" onAction="#onClickGradeActivity" prefHeight="68.0" prefWidth="145.0" text="Grade Activity" />
+   </children>
+</AnchorPane>

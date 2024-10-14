@@ -1,0 +1,18 @@
+.slider .track{
+    -fx-background-color: linear-gradient(to left, green, orange);
+    -fx-text-fill: white;
+}
+
+.slider .axis .tick-mark{
+    -fx-text-fill: white;
+}
+
+
+.root{
+    -fx-background-color: #5A5A5A;
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-background-color: #10cb84;
+}

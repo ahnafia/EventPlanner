@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@Dashboard.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EventPlanner.AnalysisController">
+   <children>
+      <VBox fx:id="feedbackList" layoutX="-1.0" layoutY="205.0" prefHeight="200.0" prefWidth="600.0" style="-fx-background-color: white;" />
+      <Label layoutX="175.0" layoutY="41.0" text="Average Satisfaction" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="averageSatisfaction" layoutX="269.0" layoutY="90.0" prefHeight="35.0" prefWidth="63.0" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+.root{
+    -fx-background-color: #5A5A5A;
+    -fx-text-fill: white;
+}
+
+.table-view{
+    -fx-background-color: #5A5A5A;
+}
+
+#tasksviewAssembly .column-header{
+    -fx-background-color: #10cb84;
+}
+
+#timespan .column-header{
+    -fx-background-color: aqua;
+}
+
+.button{
+    -fx-background-color: #10cb84;
+}

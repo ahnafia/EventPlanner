@@ -1,0 +1,20 @@
+.root{
+    -fx-background-color: #5A5A5A;
+    -fx-text-fill: white;
+}
+
+#satisfactionSlider .track{
+    -fx-background-color: linear-gradient(to left, red, #10cb84);
+}
+#satisfactionSlider .label{
+    -fx-background-color: white;
+}
+
+.button{
+    -fx-background-color: #10cb84;
+}
+.column-header{
+    -fx-background-color: #43A5BE;
+    -fx-font-family: monospace;
+    -fx-text-fill: red;
+}

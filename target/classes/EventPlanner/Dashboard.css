@@ -1,0 +1,33 @@
+.root{
+    -fx-background-color: #5A5A5A;
+    -fx-text-fill: white;
+}
+
+#ccview{
+    -fx-background-color: #5A5A5A;
+    -fx-border-color: grey;
+}
+
+#ccview .column-header{
+    -fx-background-color: #10cb84;
+}
+
+#eventview{
+    -fx-border-color: #43A5BE;
+    -fx-border-width: 2;
+}
+#eventview .column-header{
+    -fx-background-color: #43A5BE;
+    -fx-font-family: monospace;
+    -fx-text-fill: red;
+}
+
+
+.button{
+    -fx-background-color: #10cb84;
+}
+
+#addNewEvent{
+    -fx-background-color: white;
+    -fx-font-family: sans-serif;
+}
